@@ -1,7 +1,16 @@
 function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+    const options = { 
+        timeZone: 'America/Chicago', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        hour: 'numeric', 
+        minute: 'numeric', 
+        second: 'numeric', 
+        hour12: true 
+    };
+    const dateTimeString = new Date().toLocaleString('en-US', options);
+    document.getElementById('currentTime').innerHTML = dateTimeString;
 }
 showTime();
-setInterval(function () {
-	showTime();
-}, 1000);
+setInterval(showTime, 1000);

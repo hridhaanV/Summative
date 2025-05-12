@@ -1,3 +1,4 @@
+
 body {
   background-color: #D6B588;
   font-size: 25px;
@@ -19,11 +20,12 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
 }
 
 .website-name {
   margin: 0;
-  font-size: 40px;
+  font-size: 31px;
 }
 
 .nav-buttons {
@@ -31,11 +33,12 @@ header {
 }
 
 .nav-button {
-  margin-left: 10px;
-  padding: 10px 15px;
-  background-color: #FFFFFF;
-  color: #5C6AC4;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    margin-left: 30px; 
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    color: #5C6AC4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
 }

@@ -6,7 +6,7 @@ body {
   margin: auto;
   width: 100%; 
   text-align: center; 
-  font-family: 'Roboto', sans-serif; /* Ensure you have the Google Font link in index.html */
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
